@@ -40,6 +40,6 @@ Busque na plataforma da Alura os cursos da escola Front-end:
 
 # Autores
 
-| [<img src="https://github.com/CamilaSah/site-pessoal/assets/128820692/bed790ab-3722-4503-8fed-c786e774661b" width="100"> <br> <sub>Camila Sayuri Tokubo</sub>](https://www.linkedin.com/in/camila-tokubo/) |
+| <img src="https://github.com/CamilaSah/site-pessoal/assets/128820692/bed790ab-3722-4503-8fed-c786e774661b" width="100"><br>[<sub>Camila Sayuri Tokubo</sub>](https://www.linkedin.com/in/camila-tokubo/)|
 | :---: |
 
