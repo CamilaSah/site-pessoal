@@ -21,14 +21,19 @@ Você pode acessar o site clicando [aqui](https://site-pessoal-sepia.vercel.app/
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-Técnicas
+Técnicas utilizadas:
+- ``Documentação``: A cada novo assunto aprendido, foi consultada a documentação para saber a estrutura de um método, comando, funcionalidade ou recurso de uma biblioteca.
+- ``Estrutura básica do HTML``: Foi utilizada para criar um arquivo HTML funcional, seguindo uma estrutura padrão.
+- ``Tags semânticas``: São tags descritivas sobre o conteúdo que armazenam, como é o caso das tags ``<header>``, ``<main>`` e ``<footer>``. Foram utilizadas para otimizar a leitura pelos navegadores e para fazer a manutenção do código.
+- ``Escolhendo as cores da página``: Foram escolhidas as cores do projeto (cor primária, secundária e terciária), que definiam as cores de fundo, texto e de destaque.
+
+Tecnologias e ferramentas utilizadas:
+- ``VS Code``: O código foi desenvolvido neste editor de código.
 - ``Developer Tools``: Foi utilizada para visualizar melhor a aplicação do que desenvolvido, como margem, padding e gap.
 - ``Figma``: Foi utilizada para consultar o layout do projeto, visualizar os espaçamentos e cores.
 - ``Personalização do tema``:
-
-Tecnologias
 - ``HTML5``
-- ``CSS``
+- ``CSS``: Utilizada para estilização da página.
 
 ## 📚 Mais informações do curso
 
