@@ -3,16 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Pessoal</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="curriculum.html">Currículo</a>
-        </nav>
+        <div class="cabecalho__container">
+            <div class="cabecalho__logo-container">
+                <a class="cabecalho__logo-link" href="index.html">
+                    <div class="cabecalho__logo">
+                        <span class="cabecalho__logo-sayuri">sayuri</span><span class="cabecalho__logo-dev">.dev</span>
+                    </div>
+                </a>
+            </div>
+            <nav class="cabecalho__nav">
+                <ul class="cabecalho__menu">
+                    <li class="cabecalho__menu__item-container">
+                        <a class="cabecalho__menu__item" href="index.html">Estudos</a>
+                    </li>
+                    <li class="cabecalho__menu__item-container">
+                        <a class="cabecalho__menu__item" href="about.html">Sobre</a>
+                    </li>
+                    <li class="cabecalho__menu__item-container">
+                        <a class="cabecalho__menu__item" href="curriculum.html">Currículo</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">

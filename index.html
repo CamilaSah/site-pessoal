@@ -4,36 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="curriculum.html">Currículo</a>
-        </nav>
+        <div class="cabecalho__container">
+            <div class="cabecalho__logo-container">
+                <a class="cabecalho__logo-link" href="index.html">
+                    <div class="cabecalho__logo">
+                        <span class="cabecalho__logo-sayuri">sayuri</span><span class="cabecalho__logo-dev">.dev</span>
+                    </div>
+                </a>
+            </div>
+            <nav class="cabecalho__nav">
+                <ul class="cabecalho__menu">
+                    <li class="cabecalho__menu__item-container">
+                        <a class="cabecalho__menu__item" href="index.html">Estudos</a>
+                    </li>
+                    <li class="cabecalho__menu__item-container">
+                        <a class="cabecalho__menu__item" href="about.html">Sobre</a>
+                    </li>
+                    <li class="cabecalho__menu__item-container">
+                        <a class="cabecalho__menu__item" href="curriculum.html">Currículo</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Camila Tokubo, desenvolvedora Front-end com conhecimento em HTML, CSS e Javascript. Venha conhecer o meu portfólio!</p>
+            <div>
+                <h1 class="apresentacao__conteudo__titulo"><strong class="titulo-destaque">Sayuri Tokubo</strong></h1>
+                <p class="apresentacao__conteudo__texto">Desenvolvedora Front-end júnior</p>
+            </div>
+            <img class="apresentacao__perfil" src="./assets/perfil.jpeg" alt="Foto de perfil da Camila Tokubo">
             <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
                 <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/camila-tokubo/">
-                    <img src="./assets/linkedin.png">
-                    LinkedIn
+                    <img src="./assets/icons8-linkedin (1).svg">
                 </a>
                 <a class="apresentacao__links__navegacao" href="https://github.com/CamilaSah">
-                    <img src="./assets/github.png">
-                    GitHub
+                    <img src="./assets/icons8-github (1).svg">
                 </a>
             </div>
         </section>
-        <img class="apresentacao__perfil" src="./assets/perfil.jpeg" alt="Foto de perfil da Camila Tokubo">
+        <section class="apresentacao__sobre">
+            <p class="apresentacao__conteudo__texto">
+                Em 2023, decidi migrar de carreira da engenharia de produção para o desenvolvimento front-end. 
+            </p>
+            <p class="apresentacao__conteudo__texto">
+                Essa decisão veio a partir das experiências anteriores que tive, que me mostraram o meu interesse pela melhoria de processos focados no usuário. A princípio, acreditava que a área de UX/UI design seria a mais adequada para mim, até entender que o meu perfil mais analítico, lógico, detalhista se encaixaria melhor no desenvolvimento front-end, onde eu poderia desenvolver soluções adequadas para o usuário final.
+            </p>    
+            <p class="apresentacao__conteudo__texto">
+                Meu foco de estudos atualmente é em React. Fiz duas formações na Alura para aprender mais profundamente a lógica de programação, HTML, CSS e Javascript e o meu primeiro resultado é esse site pessoal.
+            </p>
+        </section>
     </main>
     <footer class="rodape">
-        <p>Desenvolvido por Camila Sayuri Tokubo</p>
+        <p>Desenvolvido por Camila Sayuri Lobo Tokubo</p>
     </footer>
 </body>
 </html>

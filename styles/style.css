@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-    --cor-primaria: #FDF5F5;
-    --cor-secundaria: #272D37;
-    --cor-terciaria: #FF7098;
+    --cor-primaria: #fdf5f5;
+    --cor-secundaria: #332E54;
+    --cor-terciaria: #ff7098;
 
-    --fonte-primaria: 'Open Sans', sans-serif;
-    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-primaria: 'Inter', sans-serif;
+    --fonte-secundaria: 'Open Sans', sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -21,35 +20,96 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 16px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.cabecalho__logo-container {
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
+}
+
+.cabecalho__logo-link {
+    text-decoration: none;
+}
+
+.cabecalho__logo {
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.cabecalho__logo-sayuri {
+    color: var(--cor-terciaria);
+}
+
+.cabecalho__logo-dev {
+    color: var(--cor-secundaria);
 }
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
-.cabecalho__menu__link {
-    font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--cor-terciaria);
+.cabecalho__menu__item-container:first-child {
+    margin-left: 0;
+}
+
+.cabecalho__menu__item-container {
+    display: flex;
+    margin: 0 30px;
     text-decoration: none;
+}
+
+.cabecalho__menu__item {
+    border-bottom: 2px solid transparent;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px 0;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cabecalho__menu__item:hover {
+    border-bottom-color: var(--cor-terciaria);
 }
 
 .apresentacao {
     padding: 5% 15%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
     gap: 82px;
 }
 
 .apresentacao__conteudo {
-    width: 50%;
+    width: 170%;
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 32px;
     line-height: 1.5;
     /* padding-right: 10%; */
 }
@@ -71,7 +131,7 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-size: 2.38rem;
-    font-weight: 700;
+    font-weight: 400;
     font-family:var(--fonte-primaria);
 }
 
@@ -80,7 +140,7 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -110,10 +170,9 @@ body {
 
 .apresentacao__links {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    gap: 32px;
+    gap: 16px;
 }
 
 .apresentacao__links__subtitulo {
@@ -125,18 +184,22 @@ body {
 .apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
-    gap: 16px;
-    border: 2px solid var(--cor-terciaria);
-    width: 50%;
     text-align: center;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 21.5px 0;
+    padding: 5px 0;
     text-decoration: none;
-    color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
     /* transition: all .3s ease-in-out */
+}
+
+.apresentacao__links__navegacao img {
+    width: 32px;
+}
+
+.apresentacao__sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 1% 0 0 0;
 }
 
 .apresentacao__links__link:hover {
@@ -145,7 +208,7 @@ body {
 }
 
 .apresentacao__perfil {
-    width: 50%;
+    width: 60%;
 }
     
 
@@ -155,13 +218,23 @@ body {
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
+}
+
+@media (min-width: 992px) {
+    .cabecalho__logo {
+        font-size: 20px;
+    }
+
+    .cabecalho__nav {
+        display: block;
+    }
 }
 
 @media (max-width:1400px) {
     .cabecalho {
-        padding: 10%;
+        padding: 24px;
     }
 
     .cabecalho__menu {
