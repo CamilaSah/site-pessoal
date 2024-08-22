@@ -33,7 +33,7 @@ Técnicas utilizadas:
 - ``Ícones``: Adicionar ícones aos links clicáveis.
 - ``Hover``: Estilizar elementos ao passar o mouse sobre eles com o seletor ``hover``.
 - ``Navegação entre páginas``: Adicionar links de navegação ao ``<header>``.
-- ``Variáveis CSS``: Foram utilizadas para consesguir manipular e reutilizar valores no código, como as cores primárias, secundárias e terciárias, além das fontes.
+- ``Variáveis CSS``: Foram utilizadas para conseguir manipular e reutilizar valores no código, como as cores primárias, secundárias e terciárias, além das fontes.
 - ``Medidas relativas e absolutas``: Nos tamanhos das fontes foram utilizadas a medida REM para que ao aumentar/diminuir o tamanho da tela, os elementos alterem o tamanho também.
 - ``Responsividade``: Adaptação das imagens para a unidade de medida % e utilização de Media Queries.
 - ``Media Queries``: Utilizada para adaptar o site para diversos tamanhos de tela, configurando os seus pontos de quebra do layout, os famosos Break Points.
