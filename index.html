@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="cabecalho__container">
@@ -32,36 +34,44 @@
             </nav>
         </div>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <div>
-                <h1 class="apresentacao__conteudo__titulo"><strong class="titulo-destaque">Sayuri Tokubo</strong></h1>
-                <p class="apresentacao__conteudo__texto">Desenvolvedora Front-end júnior</p>
-            </div>
-            <img class="apresentacao__perfil" src="./assets/perfil.jpeg" alt="Foto de perfil da Camila Tokubo">
-            <div class="apresentacao__links">
-                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/camila-tokubo/">
-                    <img src="./assets/icons8-linkedin (1).svg">
-                </a>
-                <a class="apresentacao__links__navegacao" href="https://github.com/CamilaSah">
-                    <img src="./assets/icons8-github (1).svg">
-                </a>
-            </div>
-        </section>
-        <section class="apresentacao__sobre">
-            <p class="apresentacao__conteudo__texto">
-                Em 2023, decidi migrar de carreira da engenharia de produção para o desenvolvimento front-end. 
-            </p>
-            <p class="apresentacao__conteudo__texto">
-                Essa decisão veio a partir das experiências anteriores que tive, que me mostraram o meu interesse pela melhoria de processos focados no usuário. A princípio, acreditava que a área de UX/UI design seria a mais adequada para mim, até entender que o meu perfil mais analítico, lógico, detalhista se encaixaria melhor no desenvolvimento front-end, onde eu poderia desenvolver soluções adequadas para o usuário final.
-            </p>    
-            <p class="apresentacao__conteudo__texto">
-                Meu foco de estudos atualmente é em React. Fiz duas formações na Alura para aprender mais profundamente a lógica de programação, HTML, CSS e Javascript e o meu primeiro resultado é esse site pessoal.
-            </p>
-        </section>
+    <main class="main">
+        <div class="main-container">
+            <section class="apresentacao">
+                <div class="apresentacao-container">
+                    <div class="apresentacao__conteudo-container">
+                        <h1 class="apresentacao__conteudo__titulo">Olá, meu nome é <span class="titulo-destaque">Camila
+                                Sayuri</span>.</h1>
+                        <h1 class="apresentacao__conteudo__texto"><span class="texto-destaque">Desenvolvedora Front-end
+                                júnior</span> em Maringá/PR.</h1>
+                    </div>
+                    <div class="apresentacao__contato-container">
+                        <a class="apresentacao__contato" href="https://www.linkedin.com/in/camila-tokubo/">
+                            <img src="./assets/icone-linkedin.svg">
+                        </a>
+                        <a class="apresentacao__contato" href="https://github.com/CamilaSah">
+                            <img src="./assets/icone-github.svg">
+                        </a>
+                        <div class="apresentacao__contato-email">
+                            <a href="mailto:tokubo.camila@gmail.com">
+                                <img src="./assets/icone-email.svg" alt="tokubo.camila@gmail.com">
+                            </a>
+                            <!--
+                                <a class="contato-email" href="mailto:tokubo.camila@gmail.com">
+                                    <p class="contato-email">tokubo.camila@gmail.com</p>
+                                </a>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="site-pessoal">
+                <p>Olá!</p>
+            </section>
+        </div>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Camila Sayuri Lobo Tokubo</p>
     </footer>
 </body>
+
 </html>
