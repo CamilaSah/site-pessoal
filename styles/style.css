@@ -162,35 +162,13 @@ body {
 
 .apresentacao__contato-container {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 24px;
 }
 
 .apresentacao__contato img {
     width: 40px;
-}
-
-.apresentacao__contato-email {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 12px;
-    text-decoration: none;
-    /* transition: all .3s ease-in-out */
-}
-
-.apresentacao__contato-email img {
-    width: 40px;
-    /* transition: all .3s ease-in-out */
-}
-
-.contato-email {
-    font-family: var(--fonte-secundaria);
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 24px;
-    color: transparent;
-    text-decoration: none;
 }
 
 .apresentacao__cv{
@@ -257,18 +235,38 @@ body {
 
 .rodape {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: var(--cor-secundaria);
+    text-align: center;
+    background-color: var(--cor-branca);
+}
+
+.rodape-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
     align-items: center;
-    margin-top: 2em;
-    padding: 24px;
-    color: var(--cor-secundaria);
-    background-color: var(--cor-terciaria);
-    text-align: center;
+    gap: 18px;
+}
+
+.rodape-email {
     font-family: var(--fonte-secundaria);
-    font-size: 1.2rem;
+    font-size: 16px;
     font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+.rodape-autor {
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
 }
 
 @media (min-width: 992px) {
