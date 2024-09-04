@@ -253,7 +253,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    width: 100%;
+    width: 40%;
     height: 100%;
     min-height: 700px;
     font-family: var(--fonte-primaria);
@@ -302,7 +302,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 100%;
+    width: 60%;
     height: 100%;
     min-height: 700px;
     font-family: var(--fonte-primaria);
@@ -318,7 +318,7 @@ body {
     justify-content: center;
     gap: 24px;
     padding: 28px 20px;
-    width: 680px;
+    width: 68%;
 }
 
 .cv__resumo__texto {
@@ -329,7 +329,7 @@ body {
     letter-spacing: 0%;
     color: var(--cor-secundaria);
     text-align: justify;
-    padding: 8px 0 8px 20px;
+    padding: 8px 0 8px 0px;
 }
 
 .cv__resumo__botao {
@@ -343,7 +343,6 @@ body {
     line-height: 24px;
     border: none;
     border-radius: 4px;
-    margin-left: 20px;
 }
 
 .cv__curriculo {
@@ -353,6 +352,7 @@ body {
     align-items: flex-start;
     gap: 80px;
     padding: 8px 20px;
+    width: 68%;
 }
 
 .cv__formacao-container {
@@ -398,8 +398,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 24px;
-    padding: 8px 20px;
-    width: 680px;
+    width: 100%;
 }
 
 .cv__experiencia-container {
@@ -415,14 +414,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     padding: 8px 0px;
-    width: 650px;
-}
-
-.cv__experiencia-item h3 {
-    margin: 0;
-    width: 440px;
-    padding: 0 8px;
-    text-align: justify;
+    width: 100%;
 }
 
 .cv__experiencia__data {
@@ -435,6 +427,14 @@ body {
     text-align: justify;
     text-transform: uppercase;
     margin: 0;
+    width: 40%;
+}
+
+.cv__experiencia__curso {
+    width: 60%;
+    text-align: justify;
+    margin: 0;
+    padding: 0 8px;
 }
 
 .cv__experiencias {
@@ -444,7 +444,7 @@ body {
     align-items: flex-start;
     gap: 24px;
     padding: 0 8px;
-    width: 440px;
+    width: 60%;
 }
 
 .cv__experiencia__cargo {
