@@ -21,7 +21,7 @@ body {
     color: var(--cor-secundaria);
 }
 
-.cabecalho {
+.header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ body {
     background-color: var(--cor-primaria);
 }
 
-.cabecalho__container {
+.header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,29 +42,23 @@ body {
     width: 100%;
 }
 
-.cabecalho__logo-container {
+.logo {
     font-family: var(--fonte-secundaria);
-    font-size: 14px;
-}
-
-.cabecalho__logo-link {
-    text-decoration: none;
-}
-
-.cabecalho__logo {
+    font-size: 20px;
     font-weight: 600;
     line-height: 27px;
-}
-
-.cabecalho__logo-sayuri {
-    color: var(--cor-terciaria);
-}
-
-.cabecalho__logo-dev {
     color: var(--cor-secundaria);
 }
 
-.cabecalho__menu {
+.logo__link {
+    text-decoration: none;
+}
+
+.logo--pink {
+    color: var(--cor-terciaria);
+}
+
+.menu {
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -72,17 +66,17 @@ body {
     list-style: none;
 }
 
-.cabecalho__menu__item-container:first-child {
+.menu__item:first-child {
     margin-left: 0;
 }
 
-.cabecalho__menu__item-container {
+.menu__item {
     display: flex;
     margin: 0 30px;
     text-decoration: none;
 }
 
-.cabecalho__menu__item {
+.menu__link {
     border-bottom: 2px solid transparent;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
@@ -94,7 +88,7 @@ body {
     text-decoration: none;
 }
 
-.cabecalho__menu__item:hover {
+.menu__link:hover {
     border-bottom-color: var(--cor-terciaria);
 }
 
@@ -576,7 +570,7 @@ body {
     width: 43px;
 }
 
-.rodape {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -613,21 +607,21 @@ body {
 }
 
 @media (min-width: 992px) {
-    .cabecalho__logo {
+    .header__logo {
         font-size: 20px;
     }
 
-    .cabecalho__nav {
+    .nav {
         display: block;
     }
 }
 
 @media (min-width:1400px) {
-    .cabecalho {
+    .header {
         padding: 24px;
     }
 
-    .cabecalho__menu {
+    .header__menu {
         justify-content: center;
     }
 
