@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/app.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/curriculum.css">
 </head>
 
 <body>
@@ -36,11 +37,11 @@
     </header>
     <main class="cv">
         <div class="cv-container">
-            <div class="resumo-container">
-                <div class="cv__resumo__apresentacao">
-                    <div class="cv__apresentacao">
-                        <h1 class="cv__apresentacao__nome">Sayuri Tokubo</h1>
-                        <h2 class="cv__apresentacao__cargo">Desenvolvedora Front-end Júnior</h2>
+            <div class="profile-container">
+                <div class="curriculum-profile">
+                    <div class="curriculum-presentation">
+                        <h1 class="curriculum-name text--strong">Sayuri Tokubo</h1>
+                        <h2 class="curriculum-position text--strong">Desenvolvedora Front-end Júnior</h2>
                     </div>
                     <div class="info">
                         <a class="info__link" href="https://www.linkedin.com/in/camila-tokubo/"
@@ -56,68 +57,61 @@
                     </div>
                 </div>
             </div>
-            <div class="curriculo-container">
-                <section class="cv__resumo__texto-container">
-                    <p class="cv__resumo__texto">Profissional formada em Engenharia de Produção (ênfase Software) e no curso
-                        intensivo em UX/UI design, com experiência em trabalho em equipe de desenvolvimento, metodologia
-                        ágil, mapeamento (fluxogramas) e melhoria de processos, definição e análise de indicadores,
-                        implementação de projetos e programas, aplicação e acompanhamento de pesquisas de satisfação, OKR,
-                        planejamento e execução de treinamentos. Com perfil analítico, resolução de problemas, organizado,
-                        detalhista e planejador. Em migração de carreira para desenvolvimento front-end.</p>
-                    <button class="cv__resumo__botao">Baixar currículo</button>
+            <div class="curriculum">
+                <section class="summary-section">
+                    <p class="text--body">Profissional formada em Engenharia de Produção (ênfase Software) e no curso intensivo em UX/UI design, com experiência em trabalho em equipe de desenvolvimento, metodologia ágil, mapeamento (fluxogramas) e melhoria de processos, definição e análise de indicadores, implementação de projetos e programas, aplicação e acompanhamento de pesquisas de satisfação, OKR, planejamento e execução de treinamentos. Com perfil analítico, resolução de problemas, organizado, detalhista e planejador. Em migração de carreira para desenvolvimento front-end.</p>
+                    <button class="btn">Baixar currículo</button>
                 </section>
-                <section class="cv__curriculo">
-                    <section class="experiencia-container">
-                        <h2 class="cv__formacao__titulo">Formação Acadêmica</h2>
-                        <div class="cv__experiencia-container">
-                            <div class="cv__experiencia-item">
-                                <p class="cv__experiencia__data">Jul 2021 - Mai 2022</p>
-                                <h3 class="cv__experiencia__curso">
-                                    <span class="cv__experiencia__cargo">Intensivo UX/UI Design -</span><span
-                                        class="text--small"> Awari certificada pela ABED (Remoto).</span>
+                <section class="background-section">
+                    <section class="backgrounds">
+                        <h2 class="background__title text--strong">Formação Acadêmica</h2>
+                        <div class="backgrounds-container">
+                            <div class="background__item">
+                                <p class="background__date text--strong">Jul 2021 - Mai 2022</p>
+                                <h3 class="background__info">
+                                    <span class="text--small text--strong">Intensivo UX/UI Design -</span><span class="text--small"> Awari certificada pela ABED (Remoto).</span>
                                 </h3>
                             </div>
-                            <div class="cv__experiencia-item">
-                                <p class="cv__experiencia__data">Jun 2018 - Jun 2020</p>
-                                <h3 class="cv__experiencia__curso">
-                                    <span class="cv__experiencia__cargo">Gestão Industrial e Manufatura Enxuta (MBA) -
+                            <div class="background__item">
+                                <p class="background__date text--strong">Jun 2018 - Jun 2020</p>
+                                <h3 class="background__info">
+                                    <span class="text--small text--strong">Gestão Industrial e Manufatura Enxuta (MBA) -
                                     </span>
-                                    <span class="text--small">Serviço Nacional de Aprendizagem Industrial
-                                        (SENAI) - Londrina/PR.</span>
+                                    <span class="text--small">Serviço Nacional de Aprendizagem Industrial (SENAI) - Londrina/PR.</span>
                                 </h3>
                             </div>
-                            <div class="cv__experiencia-item">
-                                <p class="cv__experiencia__data">Set 2013 - Set 2014</p>
-                                <h3 class="cv__experiencia__curso">
-                                    <span class="cv__experiencia__cargo">Engenharia de Gestão de Negócios (Graduação
+                            <div class="background__item">
+                                <p class="background__date text--strong">Set 2013 - Set 2014</p>
+                                <h3 class="background__info">
+                                    <span class="text--small text--strong">Engenharia de Gestão de Negócios (Graduação
                                         Sanduíche) - </span>
                                     <span class="text--small">College
                                         of Dunaújváros - Hungria (Ciência Sem Fronteiras).</span>
                                 </h3>
                             </div>
-                            <div class="cv__experiencia-item">
-                                <p class="cv__experiencia__data">Mar 2009 - Dez 2014</p>
-                                <h3 class="cv__experiencia__curso">
-                                    <span class="cv__experiencia__cargo">Engenharia de Produção (Graduação) - </span>
+                            <div class="background__item">
+                                <p class="background__date text--strong">Mar 2009 - Dez 2014</p>
+                                <h3 class="background__info">
+                                    <span class="text--small text--strong">Engenharia de Produção (Graduação) - </span>
                                     <span class="text--small">Universidade Estadual de Maringá (UEM) -
                                         Maringá/PR.</span>
                                 </h3>
                             </div>
                         </div>
                     </section>
-                    <section class="experiencia-container">
-                        <h2 class="cv__formacao__titulo">Cursos</h2>
-                        <div class="cv__experiencia-container">
-                            <div class="cv__experiencia-item">
-                                <p class="cv__experiencia__data">Mai 2023 - Atual</p>
-                                <h3 class="cv__experiencia__curso">
-                                    <span class="cv__experiencia__cargo">Formação front-end -</span><span
+                    <section class="backgrounds">
+                        <h2 class="background__title">Cursos</h2>
+                        <div class="backgrounds-container">
+                            <div class="background__item">
+                                <p class="background__date text--strong">Mai 2023 - Atual</p>
+                                <h3 class="background__info">
+                                    <span class="text--small text--strong">Formação front-end -</span><span
                                         class="text--small"> Alura (Remoto).</span>
                                 </h3>
                             </div>
-                            <div class="cv__experiencia-item">
-                                <p class="cv__experiencia__data">Jun 2020</p>
-                                <h3 class="cv__experiencia__curso">
+                            <div class="background__item">
+                                <p class="background__date text--strong">Jun 2020</p>
+                                <h3 class="background__info">
                                     <span class="text--small">Formação de Green Belts Lean Seis Sigma
                                         -</span><span class="text--small"> Grow Lean Seis Sigma
                                         (Remoto).</span>
@@ -125,15 +119,15 @@
                             </div>
                         </div>
                     </section>
-                    <section class="experiencia-container">
-                        <h2 class="cv__formacao__titulo">Experiência Profissional</h2>
-                        <div class="cv__experiencia-container">
-                            <div class="cv__experiencia-item">
-                                <p class="cv__experiencia__data">fev - jul 2021</p>
-                                <div class="cv__experiencias">
-                                    <h3 class="cv__experiencia__cargo">Analista de Processos I • COCAMAR (Empresa do
+                    <section class="backgrounds">
+                        <h2 class="background__title">Experiência Profissional</h2>
+                        <div class="backgrounds-container">
+                            <div class="background__item">
+                                <p class="background__date text--strong">fev - jul 2021</p>
+                                <div class="background__experiences">
+                                    <h3 class="text--small text--strong">Analista de Processos I • COCAMAR (Empresa do
                                         segmento agroindustrial)</h3>
-                                    <ul class="cv__experiencia__atividades-container">
+                                    <ul class="background__activities">
                                         <li class="text--small">Apoio na implantação do sistema WMS.</li>
                                         <li class="text--small">Implantação do sistema de agendamento
                                             online.</li>
@@ -144,12 +138,12 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="cv__experiencia-item">
-                                <p class="cv__experiencia__data">fev 2019 - set 2020</p>
-                                <div class="cv__experiencias">
-                                    <h3 class="cv__experiencia__cargo">Analista de Qualidade • DB1 Group (Empresa do
+                            <div class="background__item">
+                                <p class="background__date text--strong">fev 2019 - set 2020</p>
+                                <div class="background__experiences">
+                                    <h3 class="text--small text--strong">Analista de Qualidade • DB1 Group (Empresa do
                                         segmento de tecnologia da informação)</h3>
-                                    <ul class="cv__experiencia__atividades-container">
+                                    <ul class="background__activities">
                                         <li class="text--small">Implantação da metodologia ágil Scrum no
                                             time de desenvolvimento interno.</li>
                                         <li class="text--small">Implantação do sistema financeiro de uma
@@ -162,12 +156,12 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="cv__experiencia-item">
-                                <p class="cv__experiencia__data">jan 2016 - jan 2019</p>
-                                <div class="cv__experiencias">
-                                    <h3 class="cv__experiencia__cargo">Analista de RH • DB1 Group (Empresa do segmento de
+                            <div class="background__item">
+                                <p class="background__date text--strong">jan 2016 - jan 2019</p>
+                                <div class="background__experiences">
+                                    <h3 class="text--small text--strong">Analista de RH • DB1 Group (Empresa do segmento de
                                         tecnologia da informação)</h3>
-                                    <ul class="cv__experiencia__atividades-container">
+                                    <ul class="background__activities">
                                         <li class="text--small">Implantação do Programa de Mentoria, com 18
                                             mentores capacitados e 24 mentorias realizadas.</li>
                                         <li class="text--small">Implantação das Lightning Talks (mini
