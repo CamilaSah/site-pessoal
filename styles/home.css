@@ -69,7 +69,6 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    border-bottom: 4px solid rgb(253,245,245);
     padding: 3em 1em;
 }
 
@@ -101,6 +100,35 @@
     font-weight: 600;
     line-height: 120%;
     margin: 0;
+}
+
+.item-divider {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-data);
+    height: 1px;
+    width: calc(100% - 24px);
+    margin-left: 11px;
+    position: relative;
+}
+
+.item-left {
+    left: -12px;
+}
+
+.item-right {
+    right: -12px;
+}
+
+.item-right, .item-left {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--cor-data);
+    transform: rotate(45deg);
+    top: -4.5px;
+
 }
 
 .figma--size {
