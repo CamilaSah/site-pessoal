@@ -14,10 +14,21 @@
     width: 100%;
 }
 
-.estudos-section {
+.introduction-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 679px;
+    min-height: 500px;
+    padding-top: 60px;
+}
+
+.estudos-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     height: 679px;
@@ -35,10 +46,10 @@
 
 .main-content__title {
     font-family:var(--fonte-primaria);
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 400;
     letter-spacing: 2%;
-    line-height: 49px;
+    line-height: 1.25;
 }
 
 .main-content__text {
@@ -55,7 +66,6 @@
     width: 1200px;
     padding-top: 24px;
     padding-bottom: 24px;
-
 }
 
 .section__title {
@@ -69,7 +79,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding: 3em 1em;
+    padding: 48px 16px;
 }
 
 .card-container {
@@ -83,7 +93,7 @@
 }
 
 .card__gif {
-    width: calc(26.6%);
+    width: 35%;
     height: auto;
 }
 
@@ -128,7 +138,6 @@
     border: 1px solid var(--cor-data);
     transform: rotate(45deg);
     top: -4.5px;
-
 }
 
 .figma--size {
@@ -137,4 +146,80 @@
 
 .git--size {
     width: 43px;
+}
+
+@media (max-width: 767px) {
+    .estudos-section {
+        height: 850px;
+        min-height: 784px;
+        padding-top: 60px;
+    }
+    .section-container {
+        max-width: 360px;
+    }
+    .main-content__title {
+        font-size: 1.5rem;
+        line-height: 1.3;
+        font-weight: 600;
+    }
+    .main-content__text {
+        font-size: 1.25rem;
+        line-height: 1.3;
+    }
+    .section__title-container {
+        width: 360px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .section__title {
+        font-size: 1.4rem;
+        border-bottom: 2.88px solid var(--cor-terciaria);
+    }
+    .card {
+        padding: 24px 8px;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 360px;
+        height: 268px;
+    }
+    .card__gif {
+        width: 100%;
+        height: auto;
+    }
+    .card__title {
+        font-size: 1rem;
+    }
+    .item-divider {
+        height: 0.8px;
+        width: calc(100% - 18.8px);
+        position: relative;
+        margin-left: 7.4px;
+    }
+    .item-right, .item-left {
+        width: 6.4px;
+        height: 6.4px;
+        top: -3.06px;
+    }
+    .item-left {
+        left: -7.7px;
+    }
+    .item-right {
+        right: -7.7px;
+    }
+    .figma--size {
+        width: 24px;
+    }
+    .git--size {
+        width: 28.8px;
+    }    
+}    
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media (min-width: 1024px) {
+    
 }

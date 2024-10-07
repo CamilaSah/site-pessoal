@@ -14,13 +14,16 @@
 
 <body>
     <header class="header">
-        <div class="header-container">
-            <div class="logo">
+        <div class="app-header__container">
+            <div class="app-header__logo">
                 <a class="logo__link" href="index.html">
                     <span class="text--pink">sayuri</span><span>.dev</span>
                 </a>
             </div>
-            <nav>
+            <div id="burguer" class="app-header__menu-icon">
+                <img src="./assets/menu_icon.svg" alt="Menu">
+            </div>
+            <nav id="nav">
                 <ul class="menu">
                     <li class="menu__item">
                         <a class="menu__link" href="index.html">Estudos</a>
@@ -34,18 +37,39 @@
                 </ul>
             </nav>
         </div>
+        <div class="mobile-menu">
+            <div class="mobile-menu__container">
+                <div class="mobile-menu__close-icon">
+                    <img src="./assets/close_icon.svg" alt="Close">
+                </div>
+                <nav id="mobile-menu__nav">
+                    <ul class="mobile-menu__menu">
+                        <li class="mobile-menu__menu-item">
+                            <a class="mobile-menu__menu-link" href="index.html">Estudos</a>
+                        </li>
+                        <li class="mobile-menu__menu-item">
+                            <a class="mobile-menu__menu-link" href="about.html">Sobre</a>
+                        </li>
+                        <li class="mobile-menu__menu-item">
+                            <a class="mobile-menu__menu-link" href="curriculum.html">Currículo</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
     <main class="main">
         <div class="main-container">
-            <section class="estudos-section">
+            <section class="introduction-section">
                 <div class="section-container">
                     <div>
-                        <h1 class="main-content__title">Olá, meu nome é <span class="text--pink text--strong">Camila Sayuri</span>.</h1>
-                        <h1 class="main-content__text"><span class="text--strong">Desenvolvedora Front-end júnior</span> em Maringá/PR.</h1>
+                        <h1 class="main-content__title">Olá, meu nome é <span class="text--pink text--strong">Camila
+                                Sayuri</span>.</h1>
+                        <h1 class="main-content__text"><span class="text--strong">Desenvolvedora Front-end júnior</span>
+                            em Maringá/PR.</h1>
                     </div>
                     <div class="info">
-                        <a class="info__link" href="https://www.linkedin.com/in/camila-tokubo/"
-                            target="_blank">
+                        <a class="info__link" href="https://www.linkedin.com/in/camila-tokubo/" target="_blank">
                             <img src="./assets/icone-linkedin.svg" alt="ícone da logo do Linkedin">
                         </a>
                         <a class="info__link" href="https://github.com/CamilaSah" target="_blank">
@@ -72,7 +96,9 @@
                                     <div class="item-left"></div>
                                     <div class="item-right"></div>
                                 </div>
-                                <p class="text--small">Este site foi desenhado no Figma por mim com os conhecimentos de UX/UI design adquiridos no curso intensivo da Awari. Em seguida, desenvolvi ele com os conhecimentos de HTML e CSS adquiridos no curso da Alura.</p>
+                                <p class="text--small">Este site foi desenhado no Figma por mim com os conhecimentos de
+                                    UX/UI design adquiridos no curso intensivo da Awari. Em seguida, desenvolvi ele com
+                                    os conhecimentos de HTML e CSS adquiridos no curso da Alura.</p>
                                 <div class="info">
                                     <a href="https://www.figma.com/design/NnNOatKEOSBQGtL1NsGZoT/Site-pessoal-dev?node-id=0-1&t=uRaA8ezlXkla24YF-1"
                                         target="_blank">
@@ -87,8 +113,8 @@
                             </div>
                         </section>
                     </div>
+                </div>
             </section>
-            </div>
         </div>
     </main>
     <footer class="footer background--white">
