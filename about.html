@@ -13,12 +13,15 @@
 <body>
     <header class="header">
         <div class="app-header__container">
-            <div class="logo">
+            <div class="app-header__logo">
                 <a class="logo__link" href="index.html">
                     <span class="text--pink">sayuri</span><span>.dev</span>
                 </a>
             </div>
-            <nav>
+            <button id="btn-menu"class="mobile-menu__menu-icon">
+                <img src="./assets/menu_icon.svg" alt="Menu">
+            </button>
+            <nav class="app-header__nav">
                 <ul class="menu">
                     <li class="menu__item">
                         <a class="menu__link" href="index.html">Estudos</a>
@@ -31,6 +34,26 @@
                     </li>
                 </ul>
             </nav>
+        </div>
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="mobile-menu__container">
+                <div id="btn-close" class="mobile-menu__close-icon">
+                    <img src="./assets/close_icon.svg" alt="Close">
+                </div>
+                <nav>
+                    <ul class="mobile-menu__menu">
+                        <li class="mobile-menu__menu-item">
+                            <a class="mobile-menu__menu-link" href="index.html">Estudos</a>
+                        </li>
+                        <li class="mobile-menu__menu-item">
+                            <a class="mobile-menu__menu-link" href="about.html">Sobre</a>
+                        </li>
+                        <li class="mobile-menu__menu-item">
+                            <a class="mobile-menu__menu-link" href="curriculum.html">Currículo</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main class="about">
@@ -72,5 +95,6 @@
             <p class="footer__text">© 2024 Camila Sayuri Lobo Tokubo</p>
         </div>
     </footer>
+    <script src="menu.js"></script>
 </body>
 </html>
