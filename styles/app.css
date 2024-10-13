@@ -69,6 +69,10 @@ body {
     margin-left: 0;
 }
 
+.menu__item:last-child {
+    margin-right: 0;
+}
+
 .menu__item {
     display: flex;
     margin: 0 30px;
@@ -116,7 +120,6 @@ a {
 .text--small {
     font-size: 20px;
     line-height: 1.5;
-    text-align: justify;
     margin: 0;
 }
 
@@ -125,7 +128,6 @@ a {
     line-height: 1.5;
     padding-bottom: 12px;
     margin: 0;
-    text-align: justify;
 }
 
 .footer {
