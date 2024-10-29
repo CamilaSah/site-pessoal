@@ -158,16 +158,24 @@ a {
 }
 
 @media (max-width: 767px) {  
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .app-header__container {
         width: 325px;
+        margin-right: 0;
     }
     .app-header__logo {
         font-size: 1rem;
     }
     .mobile-menu__menu-icon {
+        display: flex;
+        justify-content: flex-end;
         background: none;
         border: none;
-        padding: 16px;
+        padding: 16px 0 16px 16px;
         cursor: pointer;
     }
     .app-header__nav {
@@ -200,7 +208,7 @@ a {
     .mobile-menu__close-icon {
         display: flex;
         justify-content: flex-end;
-        padding: 16px;
+        padding: 18px 44px;
     }
     .mobile-menu__menu {
         display: flex;
