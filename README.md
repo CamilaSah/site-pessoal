@@ -12,6 +12,13 @@ O site é composto por 3 páginas: home, sobre mim e currículo.
 - `Navegação entre as páginas`: você pode navegar entre as 3 páginas ao clicar no menu superior
 - `Redirecionamento para redes sociais`: você pode acessar as minhas redes sociais ao clicar no botão "GitHub" ou "LinkedIn"
 
+Versão atualizada do site:
+<br>
+![apresentacao-site-pessoal-840-min](https://github.com/user-attachments/assets/e9f7a75b-43e4-49a4-86f0-471c3296787e)
+<br>
+
+Versão antiga do site:
+<br>
 ![gif da apresentação do site](https://github.com/CamilaSah/site-pessoal/assets/128820692/79247daa-6012-4988-9973-73fcf231200a)
 
 
